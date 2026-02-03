@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JARVIS | Mission Control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- BACKGROUND -->
+  <canvas id="bg"></canvas>
+
+  <!-- HEADER -->
+  <header class="hud">
+    <h1>J.A.R.V.I.S</h1>
+    <p>Strategic Intelligence & Mission Readiness</p>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+
+    <section class="glass tilt">
+      <h2>Mission Profile</h2>
+      <div class="grid">
+        <div class="card">Target: NDA & Indian Air Force</div>
+        <div class="card">Track: JEE Advanced 2027</div>
+        <div class="card">Age Protocol: 16 → 17</div>
+        <div class="card">Discipline Status: ACTIVE</div>
+      </div>
+    </section>
+
+    <section class="glass tilt">
+      <h2>System Analytics</h2>
+      <div class="stats">
+        <div><span class="value" data-target="88">0</span>%<p>Readiness</p></div>
+        <div><span class="value" data-target="94">0</span>%<p>Consistency</p></div>
+        <div><span class="value" data-target="91">0</span>%<p>Focus</p></div>
+      </div>
+      <canvas id="chart"></canvas>
+    </section>
+
+    <section class="glass tilt">
+      <h2>JARVIS Assistant</h2>
+      <div id="jarvis-text"></div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    Autonomous Protocols Online • Precision Locked
+  </footer>
+
+</body>
+</html>
